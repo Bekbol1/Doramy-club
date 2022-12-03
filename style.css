@@ -1,0 +1,174 @@
+        * {
+            padding: 0;
+            margin: 0;
+            border: 0;
+        }
+        
+        *,
+        *:before,
+        *:after {
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        
+         :focus,
+         :active {
+            outline: none;
+        }
+        
+        a:focus,
+        a:active {
+            outline: none;
+        }
+        
+        nav,
+        footer,
+        header,
+        aside {
+            display: block;
+        }
+        
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            font-size: 100%;
+            line-height: 1;
+            font-size: 14px;
+            -ms-text-size-adjust: 100%;
+            -moz-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+        
+        input,
+        button,
+        textarea {
+            font-family: inherit;
+        }
+        
+        input::-ms-clear {
+            display: none;
+        }
+        
+        button {
+            cursor: pointer;
+        }
+        
+        button::-moz-focus-inner {
+            padding: 0;
+            border: 0;
+        }
+        
+        a,
+        a:visited {
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: none;
+        }
+        
+        ul li {
+            list-style: none;
+        }
+        
+        img {
+            vertical-align: top;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-size: inherit;
+            font-weight: 400;
+        }
+        
+        body {
+            background-color: #efefef;
+        }
+        
+        .lustra {
+            width: 100%;
+            background: rgba(29, 27, 27, 0.75);
+            z-index: 100;
+            position: fixed;
+            height: 45px;
+        }
+        
+        .backspace {
+            display: inline-block;
+            background-color: gray;
+            position: relative;
+        }
+        
+        .content {
+            display: inline-block;
+            max-width: 1050px;
+            margin: 50px 243px;
+            padding: 5px;
+            height: 100px;
+            position: relative;
+            background-color: white;
+            z-index: 99;
+        }
+        
+        .logo-doramy {
+            height: 36px;
+            margin-left: 240px;
+            margin-top: 3px;
+            margin-right: 12px;
+        }
+        
+        .lustra-icons {
+            display: inline;
+            height: 24px;
+            margin-top: 8px;
+            padding: 0px 1px;
+        }
+        
+        .search-box {
+            width: 320px;
+            height: 30.8px;
+            border-radius: 3px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            color: rgba(29, 27, 27, 0.75);
+            padding: 1px 7px;
+        }
+        
+        .search {
+            margin-left: 920px;
+            margin-top: -32px;
+        }
+        
+        .logo-search {
+            height: 22px;
+            margin-left: -32px;
+            margin-top: 5px;
+        }
+        
+        .icon-path {
+            height: 16.4px;
+            margin-left: 1255px;
+            margin-top: -24px;
+        }
+        
+        .posters {
+            background-color: white;
+            height: 229px;
+            display: inline-block;
+            max-width: 1100px;
+            margin: 50px 235px;
+            padding: 19px 9px;
+            position: relative;
+            z-index: 99;
+        }
+        
+        .header-posters {
+            height: 190px;
+            padding: 0px 4.5px;
+        }
